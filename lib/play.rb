@@ -1,6 +1,6 @@
 # Helper Methods
 def display_board(b)
-  puts [0,3,6].map {|i| " #{b[i+0]} | #{b[i+1]} | #{b[i+2]} "}.join("\n#{'-'*11}")
+  puts [0,3,6].map {|i| " #{b[i+0]} | #{b[i+1]} | #{b[i+2]} \n"}.join("#{'-'*11}\n")
 end
 
 def input_to_index(user_input)
